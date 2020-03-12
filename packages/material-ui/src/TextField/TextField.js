@@ -312,11 +312,11 @@ TextField.propTypes = {
    */
   required: PropTypes.bool,
   /**
-   * Number of rows to display when multiline option is set to true.
+   * Number of rows to display when multiline option is set to true. 
    */
   rows: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   /**
-   * Maximum number of rows to display when multiline option is set to true.
+   * Maximum number of rows to display when multiline option is set to true, if not set uses rows value.
    */
   rowsMax: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   /**
